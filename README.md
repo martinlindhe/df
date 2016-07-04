@@ -1,14 +1,16 @@
 # About
 
+[![gorelease](https://dn-gorelease.qbox.me/gorelease-download-blue.svg)](https://gobuild.io/martinlindhe/df/master)
+
 `df` prints the disk usage / bytes free of partitions.
 
-Re-implementation of the `df` utility from coreutils,
+Naive implementation of the `df` utility from coreutils,
 written in Golang and targeting Windows.
 
 
 # Installation
 
-    go get -u github.com/martinlindhe/go-df/cmd/df
+    go get -u github.com/martinlindhe/df
 
 
 # TODO
